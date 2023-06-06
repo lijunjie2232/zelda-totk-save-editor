@@ -5,7 +5,7 @@ packed zelda totk save editor from [https://github.com/marcrobledo/savegame-edit
 
 using tauri at [https://tauri.app](https://tauri.app)
 
----
+
 ## [Usage]
 Download from release page and run
 
@@ -13,7 +13,7 @@ Download from release page and run
 - drop function not work
 - save path only user directory
 
----
+
 ## [develop]
 ### Prerequisites
 - Windows: MSVC + Windows 10 SDK + WebView2 + Rust
@@ -21,10 +21,14 @@ Download from release page and run
 Please follow the instruction at [https://tauri.app/v1/guides/getting-started/prerequisites](https://tauri.app/v1/guides/getting-started/prerequisites)
 
 ### Run
+```shell
 npm run tauri dev
+```
 
 ### Build
+```shell
 npm run tauri build
+```
 
 
 ---
