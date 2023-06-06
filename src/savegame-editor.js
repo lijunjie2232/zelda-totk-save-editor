@@ -184,7 +184,7 @@ window.addEventListener('load', function(){
 	dragZone.className='wrapper';
 	var dragMessage=document.createElement('div');
 	dragMessage.id='dragzone-message';
-	dragMessage.innerHTML='<button class="close" onclick="document.getElementById(\'file-load\').click()"><i class=\"icon disk\"></i> Browse '+getSavegameAllNames()+'</button> or drop it here';
+	dragMessage.innerHTML='<button class="close" onclick="document.getElementById(\'file-load\').click()"><i class=\"icon disk\"></i> Browse '+getSavegameAllNames()+'</button> (drop function not work yet) it here';
 
 	var inputFile=document.createElement('input');
 	inputFile.type='file';
